@@ -14,5 +14,7 @@ resultado = (10 * num1) / 100;
 
 resultado2 = resultado + num1;
 
-document.getElementById("resultado").value = resultado2
+alert("El aumento es de " + "$" + resultado);
+
+document.getElementById("resultado").value = resultado2.toFixed(2);
 }
